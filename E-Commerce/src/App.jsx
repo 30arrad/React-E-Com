@@ -1,43 +1,36 @@
-import './App.css'
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from './Components/Footer';
-import NavBer from './components/NavBer';
-import Items from './Components/Items';
-import HeroSession from './Components/HeroSession';
-import Card from './Components/Card';
-import Watchlist from './Components/Watchlist';
-
-
+import Footer from "./Components/Footer";
+import NavBer from "./components/NavBer";
+import Card from "./Components/Card";
+import Watchlist from "./Components/Watchlist";
+import { useState } from "react";
+import Home from "./Components/Home";
 
 function App() {
-  const item = {
-    id: '00001',
-    item_img : `Images/Hoodies/H-1.jpg`,
-    item_Name : `Mens Premium Hoodie Urban - Light Coffee`,
-    item_Old_Price: " ৳ 2500",
-    item_Price : ` ৳ 1790`,
-    item_item_Category : `HOODIES` 
-  }
+  const [selectedTab, setSelectedTab] = useState("Home");
   return (
     <>
-    <NavBer/>
-    <img className='HEROIMG' src="banner.png" alt="" style={{width: "100%"}}/> 
-        <HeroSession/>
-        <div className="items-container">
-        <Items key={item.id} item={item}/>
-        </div>
+      <NavBer
+        selectedTab={selectedTab}
+        setSelectedTab={setSelectedTab}
+      ></NavBer>
+
+      {selectedTab === "Home" ? (
+        <Home></Home>
+      ) : selectedTab === "My Card" ? (
         <div className="App">
           <Card />
         </div>
+      ) : (
         <div className="">
-          <Watchlist/>
+          <Watchlist />
         </div>
-    <Footer/>
+      )}
+
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;
-
-
-
