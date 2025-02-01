@@ -1,0 +1,372 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "item_img": "../Images/Hoodies/H-1.jpg",
+      "item_Name": "Mens Premium Hoodie Urban - Light Coffee",
+      "item_Old_Price":  2500,
+      "item_Price": 1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "2",
+      "item_img": "../Images/Hoodies/H-2.jpg",
+      "item_Name": "Mens Premium Hoodie Urban - Redwine",
+      "item_Old_Price": 2500,
+      "item_Price": 1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "3",
+      "item_img": "../Images/Hoodies/H-3.jpg",
+      "item_Name": "Mens Premium Hoodie Urban - Laurel Oak",
+      "item_Old_Price": 2500,
+      "item_Price": 790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "4",
+      "item_img": "../Images/Hoodies/H-4.jpg",
+      "item_Name": "Mens Multi-Shades Hoodie - Stormy Sea",
+      "item_Old_Price":500,
+      "item_Price":1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "5",
+      "item_img": "../Images/Hoodies/H-5.jpg",
+      "item_Name": "Mens Premium Hoodie Urban -Coffee Quartz",
+      "item_Old_Price":2500,
+      "item_Price":1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "6",
+      "item_img": "../Images/Hoodies/H-6.jpg",
+      "item_Name": "Mens Multi-Shades Hoodie - Oak",
+      "item_Old_Price":2500,
+      "item_Price":1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "7",
+      "item_img": "../Images/Hoodies/H-7.jpeg",
+      "item_Name": "Mens Premium Hoodie Urban - Black",
+      "item_Old_Price": 2500,
+      "item_Price": 1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "8",
+      "item_img": "../Images/Hoodies/H-8.jpg",
+      "item_Name": "Mens Premium Hoodie Urban - Black",
+      "item_Old_Price": 2500,
+      "item_Price": 1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "9",
+      "item_img": "../Images/Hoodies/H-9.jpg",
+      "item_Name": "Mens Multi-Shades Hoodie - Navy",
+      "item_Old_Price":2500,
+      "item_Price":1790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "10",
+      "item_img": "../Images/Hoodies/H-10.jpg",
+      "item_Name": "Mens Multi-Shades Hoodie - Ice Berg Green",
+      "item_Old_Price":2500,
+      "item_Price": 790,
+      "item_item_Category": "HOODIES"
+    },
+    {
+      "id": "11",
+      "item_img": "../Images/Jackets/J-1.jpg",
+      "item_Name": "Mens Premium Jacket - Blizzard (Navy)",
+      "item_Old_Price": 2500,
+      "item_Price": 1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "12",
+      "item_img": "../Images/Jackets/j-2.jpg",
+      "item_Name": "Mens Premium Jacket - Umber (Chocolate)",
+      "item_Old_Price":2500,
+      "item_Price":1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "13",
+      "item_img": "../Images/Jackets/J-3.jpg",
+      "item_Name": "Mens Premium Jacket - Sizzler (Ash)",
+      "item_Old_Price":2500,
+      "item_Price":1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "14",
+      "item_img": "../Images/Jackets/J-4.jpg",
+      "item_Name": "Mens Premium Jacket - Stockholm",
+      "item_Old_Price":500,
+      "item_Price": 1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "15",
+      "item_img": "../Images/Jackets/J-5.jpg",
+      "item_Name": "Mens Premium Jacket - Greed (Olive)",
+      "item_Old_Price": 2500,
+      "item_Price": 1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "16",
+      "item_img": "../Images/Jackets/j-6.jpg",
+      "item_Name": "Mens Premium Jacket - Solstice (Black)",
+      "item_Old_Price": 500,
+      "item_Price": 1999,
+      "item_item_Category": "JACKETS"
+    },
+    {
+      "id": "17",
+      "item_img": "../Images/Pants/p-1.jpg",
+      "item_Name": "Mens Premium Sports Joggers - Universal",
+      "item_Old_Price": 2500,
+      "item_Price": 730,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "18",
+      "item_img": "../Images/Pants/p-2.jpg",
+      "item_Name": "Mens Premium Joggers - Coffee Quartz",
+      "item_Old_Price":2500,
+      "item_Price": 1340,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "19",
+      "item_img": "../Images/Pants/p-3.jpg",
+      "item_Name": "Mens Premium Sports Joggers - Gymnast",
+      "item_Old_Price":2500,
+      "item_Price":730,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "20",
+      "item_img": "../Images/Pants/p-4.png",
+      "item_Name": "Mens Premium Sports Joggers - Vigour",
+      "item_Old_Price": 500,
+      "item_Price": 730,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "21",
+      "item_img": "../Images/Pants/p-5.png",
+      "item_Name": "Mens Premium Joggers - Navy",
+      "item_Old_Price": 2500,
+      "item_Price": 1340,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "22",
+      "item_img": "../Images/Pants/p-6.jpg",
+      "item_Name": "Mens Premium Sports Joggers - Interactive",
+      "item_Old_Price": 2500,
+      "item_Price":  730,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "23",
+      "item_img": "../Images/Pants/p-7.jpeg",
+      "item_Name": "Mens Premium Sports Joggers - Vigour",
+      "item_Old_Price": 2500,
+      "item_Price":  730,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "24",
+      "item_img": "../Images/Pants/p-8.jpg",
+      "item_Name": "Mens Premium Joggers - Laurel Oak",
+      "item_Old_Price": 2500,
+      "item_Price":  1340,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "25",
+      "item_img": "Images/Pants/p-9.jpeg",
+      "item_Name": "Mens Premium Joggers - Stormy sea",
+      "item_Old_Price": "2500",
+      "item_Price":  1340,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "26",
+      "item_img": "../Images/Pants/p-10.jpeg",
+      "item_Name": "Women's Casual Top",
+      "item_Old_Price":2500,
+      "item_Price": 750,
+      "item_Category": "PANTS"
+    },
+    {
+      "id": "27",
+      "item_img": "../Images/Shirt/s-1.jpg",
+      "item_Name": "Premium Formal Shirt - Salvador",
+      "item_Old_Price": 2500,
+      "item_Price":1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "28",
+      "item_img": "../Images/Shirt/s-2.jpg",
+      "item_Name": "Premium Formal Shirt - Edinburgh",
+      "item_Old_Price":  2500,
+      "item_Price": 1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "29",
+      "item_img": "../Images/Shirt/s-3.jpg",
+      "item_Name": "Premium Formal Shirt - Canberra",
+      "item_Old_Price":  2500,
+      "item_Price": 1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "30",
+      "item_img": "../Images/Shirt/s-4.jpg",
+      "item_Name": "Premium Formal Shirt - Dresden",
+      "item_Old_Price": 2500,
+      "item_Price": 1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "31",
+      "item_img": "../Images/Shirt/s-5.jpg",
+      "item_Name": "Premium Formal Shirt - Rosario",
+      "item_Old_Price": 2500,
+      "item_Price": 1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "32",
+      "item_img": "../Images/Shirt/s-6.jpg",
+      "item_Name": "Premium Casual Shirt - Orlando",
+      "item_Old_Price": 2500,
+      "item_Price": 1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "33",
+      "item_img": "../Images/Shirt/s-7.jpg",
+      "item_Name": "Premium Formal Shirt - Havana",
+      "item_Old_Price": 2500,
+      "item_Price":  1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "34",
+      "item_img": "../Images/Shirt/s-8.jpg",
+      "item_Name": "High Formal Shirt - Havana",
+      "item_Old_Price": 2500,
+      "item_Price": 2800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "35",
+      "item_img": "../Images/Shirt/s-9.jpg",
+      "item_Name": "Premium Formal Shirt - Cordoba",
+      "item_Old_Price":  2500,
+      "item_Price": "৳ 1800",
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "36",
+      "item_img": "../Images/Shirt/s-10.jpg",
+      "item_Name": "Premium Formal Shirt - Atlanta",
+      "item_Old_Price":2500,
+      "item_Price":  1800,
+      "item_Category": "SHIRT"
+    },
+    {
+      "id": "37",
+      "item_img": "../Images/T-Shirts/t-1.jpg",
+      "item_Name": "Mens Premium T-Shirt- Jamming",
+      "item_Old_Price":  2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "38",
+      "item_img": "../Images/T-Shirts/t-2.jpg",
+      "item_Name": "Mens Premium T-Shirt - Nothing Less",
+      "item_Old_Price": 2500,
+      "item_Price":  599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "39",
+      "item_img": "../Images/T-Shirts/t-3.jpg",
+      "item_Name": "Fabrilife Mens Premium T-Shirt - Nasa",
+      "item_Old_Price": 2500,
+      "item_Price":  599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "40",
+      "item_img": "../Images/T-Shirts/t-4.jpg",
+      "item_Name": "Fabrilife Mens Premium T-shirt - Maze",
+      "item_Old_Price": 2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "41",
+      "item_img": "../Images/T-Shirts/t-5.jpg",
+      "item_Name": "Mens Premium Classic T-Shirt - White Liner",
+      "item_Old_Price": 2500,
+      "item_Price":  599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "42",
+      "item_img": "../Images/T-Shirts/t-6.jpg",
+      "item_Name": "Mens Premium T-Shirt - Blackrock",
+      "item_Old_Price":  2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "43",
+      "item_img": "../Images/T-Shirts/t-7.jpg",
+      "item_Name": "Mens Premium T-Shirt- Shine",
+      "item_Old_Price": 2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "44",
+      "item_img": "../Images/T-Shirts/t-8.jpg",
+      "item_Name": "Mens Premium T-Shirt- Threshold",
+      "item_Old_Price": 2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "45",
+      "item_img": "../Images/T-Shirts/t-9.jpg",
+      "item_Name": "Mens Premium T-Shirt - Euphrates",
+      "item_Old_Price": 2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    },
+    {
+      "id": "46",
+      "item_img": "../Images/T-Shirts/t-10.jpg",
+      "item_Name": "Fabrilife Mens Premium T-shirt - Destruction",
+      "item_Old_Price": 2500,
+      "item_Price": 599,
+      "item_Category": "T_SHIRTS"
+    }
+  ]
+}
