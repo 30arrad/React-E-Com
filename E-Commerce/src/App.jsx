@@ -25,12 +25,12 @@ function App() {
         style={{ width: "100%" }}
       />
       <HeroSession />
-
+      {/* 
       {selectedTab === "Home" ? <Items></Items> : <Card></Card>}
 
-      {/* <Watchlist></Watchlist> */}
+      <Watchlist></Watchlist> */}
 
-      {/* {selectedTab === "Home" ? (
+      {selectedTab === "Home" ? (
         <Home></Home>
       ) : selectedTab === "My Card" ? (
         <div className="App">
@@ -40,7 +40,7 @@ function App() {
         <div className="">
           <Watchlist />
         </div>
-      )} */}
+      )}
 
       <Footer />
     </>

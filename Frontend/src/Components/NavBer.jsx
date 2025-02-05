@@ -1,7 +1,7 @@
 import { IoBagCheck } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 
-const NavBer = ({ selectedTab, setSelectedTab }) => {
+const NavBer = () => {
   return (
     <>
       <nav
@@ -9,33 +9,25 @@ const NavBer = ({ selectedTab, setSelectedTab }) => {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <div
-            className="navbar-brand DisplayFlex"
-            onClick={() => {
-              setSelectedTab("Home");
-            }}
-          >
+          <a className="navbar-brand" href="#">
             Hpmeopathy Care
-          </div>
+          </a>
           <div className="mobileBer navbar-toggler">
-            <div className="DisplayFlex">
+            <div>
+              {" "}
               <div
                 className=" NAVHADERCOLOR "
-                onClick={() => {
-                  setSelectedTab("Watchlist");
-                }}
+                onClick={() => console.log("NOOO BAG")}
               >
                 <FaRegHeart />
               </div>
               <span className="NAVHADER">0</span>
             </div>
 
-            <div className="DisplayFlex">
+            <div>
               <div
                 className="  NAVHADERCOLOR "
-                onClick={() => {
-                  setSelectedTab("My Card");
-                }}
+                onClick={() => console.log("BAG")}
               >
                 <IoBagCheck />
               </div>
@@ -77,27 +69,17 @@ const NavBer = ({ selectedTab, setSelectedTab }) => {
               </button>
             </form>
 
-            <div className="DisplayFlex">
-              <div
-                className=" NAVHADERCOLOR active"
-                onClick={() => {
-                  setSelectedTab("Watchlist");
-                }}
-              >
+            <div>
+              <a href="" className=" NAVHADERCOLOR active">
                 <FaRegHeart />
-              </div>
+              </a>
               <span className="NAVHADER ">0</span>
             </div>
 
-            <div className="DisplayFlex">
-              <div
-                className={`NAVHADERCOLOR ${selectedTab === "My Card"}`}
-                onClick={() => {
-                  setSelectedTab("My Card");
-                }}
-              >
+            <div>
+              <a href="" className={`NAVHADERCOLOR `}>
                 <IoBagCheck />
-              </div>
+              </a>
               <span className="NAVHADER ">0</span>
             </div>
           </div>
