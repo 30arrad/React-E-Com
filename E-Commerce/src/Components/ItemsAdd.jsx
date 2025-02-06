@@ -28,7 +28,8 @@ const ItemsAdd = () => {
   }, []);
 
   const handleAddToCart = (item) => {
-    console.log("Added to Cart:", item); // এখানে কনসোল লগ করে ক্যাট করা হবে
+    console.log("Added to Cart:", item); 
+    
   };
 
   if (error) {
@@ -52,6 +53,7 @@ const ItemsAdd = () => {
               alt={item.item_Name}
             />
             <div className="card-body">
+              {item.item_item_Category}
               <h5 className="card-title">{item.item_Name}</h5>
               <div className={styles.spanDiv}>
                 <span className={styles.spanX}>৳ {item.item_Old_Price} </span>
@@ -68,10 +70,14 @@ const ItemsAdd = () => {
                 >
                   Add to Cart
                 </button>
-                <button type="button" className="buttonBuy BUTTONHEARD" onClick={(e) => {
+                <button
+                  type="button"
+                  className="buttonBuy BUTTONHEARD"
+                  onClick={(e) => {
                     e.stopPropagation(); // Prevent triggering item click
                     handleAddToCart(item); // When clicked, the item is added to the cart
-                  }}>
+                  }}
+                >
                   <FaRegHeart />
                 </button>
               </div>
