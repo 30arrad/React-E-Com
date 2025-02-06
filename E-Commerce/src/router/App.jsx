@@ -7,6 +7,7 @@ import { useState } from "react";
 import Home from "../Components/Home";
 import HeroSession from "../Components/HeroSession";
 import Items from "../Components/Items";
+import ItemsAdd from "../Components/ItemsAdd";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("Home");

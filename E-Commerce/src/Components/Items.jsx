@@ -1,8 +1,8 @@
 import { FaRegHeart } from "react-icons/fa";
 import styles from "./Items.module.css";
 
-const Items = ({}) => {
-  const item = {
+const Items = () => {
+  const items = {
     id: "00001",
     item_img: `Images/Hoodies/H-1.jpg`,
     item_Name: `Mens Premium Hoodie Urban - Light Coffee`,
@@ -14,15 +14,15 @@ const Items = ({}) => {
     <center className={styles.itemsDev}>
       <div className="card itemstyle" style={{ width: "18rem" }}>
         <img
-          src={item.item_img}
+          src={items.item_img}
           className="card-img-top imgHover {styles.hover}"
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">{item.item_Name}</h5>
+          <h5 className="card-title">{items.item_Name}</h5>
           <div className={styles.spanDiv}>
-            <span className={styles.spanX}>৳ {item.item_Old_Price} </span>
-            <span className={styles.spanY}>৳ {item.item_Price}</span>
+            <span className={styles.spanX}>৳ {items.item_Old_Price} </span>
+            <span className={styles.spanY}>৳ {items.item_Price}</span>
           </div>
           <div className={styles.BUTTON}>
             <button
