@@ -1,7 +1,7 @@
 import { FaRegHeart } from "react-icons/fa";
 import styles from "./Items.module.css";
 
-const Items = () => {
+const Items = ({}) => {
   const item = {
     id: "00001",
     item_img: `Images/Hoodies/H-1.jpg`,
@@ -10,13 +10,6 @@ const Items = () => {
     item_Price: 1790,
     item_item_Category: `HOODIES`,
   };
-
-  const backendData = () => {
-    fetch("http://localhost:8080/items")
-      .then((res) => res.json())
-      .then(console.log);
-  };
-
   return (
     <center className={styles.itemsDev}>
       <div className="card itemstyle" style={{ width: "18rem" }}>
@@ -44,8 +37,6 @@ const Items = () => {
           </div>
         </div>
       </div>
-
-      <button onClick={backendData}>BackEnd</button>
     </center>
   );
 };
