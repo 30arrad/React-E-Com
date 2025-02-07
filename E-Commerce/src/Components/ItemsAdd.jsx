@@ -6,6 +6,7 @@ const ItemsAdd = () => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [bagCount, setbagCount] = useState([0]);
 
   useEffect(() => {
     const fetchItems = async () => {
@@ -16,7 +17,7 @@ const ItemsAdd = () => {
           throw new Error("Failed to fetch items");
         }
         const data = await response.json();
-        setItems(data.items); // যেহেতু তুমি JSON এ ডাটা দিয়েছো, এখানে ডাটা আনতে হবে ঠিকমত
+        setItems(data.items);
       } catch (error) {
         console.error("Error fetching items:", error);
         setError(error.message);
@@ -28,10 +29,14 @@ const ItemsAdd = () => {
   }, []);
 
   const handleAddToCart = (item) => {
-    console.log("Added to Cart:", item); 
-    
+    console.log("Added to Cart:", item.id);
+    setbagCount((prev) => prev + 1);
   };
 
+  // const handleAddToCart = (item) => {
+  //   setBagCount((prev) => prev + 1);
+  //   setBagItems((prev) => [...prev, item]);
+  // };
   if (error) {
     return <div className={styles.error}>Error: {error}</div>;
   }

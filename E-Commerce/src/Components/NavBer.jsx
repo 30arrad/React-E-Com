@@ -1,7 +1,7 @@
 import { IoBagCheck } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 
-const NavBer = ({ selectedTab, setSelectedTab }) => {
+const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
   return (
     <>
       <nav
@@ -98,7 +98,7 @@ const NavBer = ({ selectedTab, setSelectedTab }) => {
               >
                 <IoBagCheck />
               </div>
-              <span className="NAVHADER ">0</span>
+              <span className="NAVHADER ">{bagCount}</span>
             </div>
           </div>
         </div>
