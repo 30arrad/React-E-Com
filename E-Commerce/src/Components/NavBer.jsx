@@ -1,5 +1,6 @@
 import { IoBagCheck } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
   return (
@@ -9,16 +10,17 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <div
+          <Link
+            to="/"
             className="navbar-brand DisplayFlex"
             onClick={() => {
               setSelectedTab("Home");
             }}
           >
             Hpmeopathy Care
-          </div>
+          </Link>
           <div className="mobileBer navbar-toggler">
-            <div className="DisplayFlex">
+            <Link to="/watchlist" className="DisplayFlex">
               <div
                 className=" NAVHADERCOLOR "
                 onClick={() => {
@@ -28,9 +30,9 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
                 <FaRegHeart />
               </div>
               <span className="NAVHADER">0</span>
-            </div>
+            </Link>
 
-            <div className="DisplayFlex">
+            <Link to="/card" className="DisplayFlex">
               <div
                 className="  NAVHADERCOLOR "
                 onClick={() => {
@@ -40,7 +42,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
                 <IoBagCheck />
               </div>
               <span className="NAVHADER ">0</span>
-            </div>
+            </Link>
           </div>
           <div className="collapse navbar-collapse " id="navbarColor01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -77,7 +79,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
               </button>
             </form>
 
-            <div className="DisplayFlex">
+            <Link to="/watchlist" className="DisplayFlex">
               <div
                 className=" NAVHADERCOLOR active"
                 onClick={() => {
@@ -87,18 +89,19 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
                 <FaRegHeart />
               </div>
               <span className="NAVHADER ">0</span>
-            </div>
+            </Link>
 
             <div className="DisplayFlex">
-              <div
+              <Link
+                to="/card"
                 className={`NAVHADERCOLOR ${selectedTab === "My Card"}`}
                 onClick={() => {
                   setSelectedTab("My Card");
                 }}
               >
                 <IoBagCheck />
-              </div>
-              <span className="NAVHADER ">{bagCount}</span>
+              </Link>
+              <span className="NAVHADER ">{bagCount === 0 ? 0 : 1}</span>
             </div>
           </div>
         </div>

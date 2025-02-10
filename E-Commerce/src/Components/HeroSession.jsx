@@ -1,9 +1,22 @@
+// import { useEffect, useState } from "react";
 import styles from "./HeroSession.module.css";
+// import ItemsAdd from "./ItemsAdd";
 
-const HeroSession = ({ items }) => {
-  // const FilterrItems = () => {
-  //   items.filter((items) => items === items.item_item_Category);
-  //   console.log(items.item_item_Category);
+const HeroSession = () => {
+  // const [data, setData] = useState([]);
+  // useEffect(() => {
+  //   fetch("http://localhost:8080/items")
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       console.log(data);
+  //       setData(data);
+  //     });
+  // }, []);
+
+  // const Catagori = ({ data }) => {
+  //   if (data.item_item_Category === data.item_item_Category) {
+  //     return <ItemsAdd></ItemsAdd>;
+  //   }
   // };
 
   return (
@@ -19,13 +32,10 @@ const HeroSession = ({ items }) => {
         <h1>BEST CLOTHING COLLECTION</h1>
         <p>Discover quality styles and fashion trends for every occasion.</p>
         <div className={styles.BUTTON}>
-          <button
-            type="button"
-            className="btn btn-secondary"
-            // onClick={() => {
-            //   FilterrItems(items);
-            // }}
-          >
+          <button type="button" className="btn btn-secondary">
+            ALL
+          </button>
+          <button type="button" className="btn btn-secondary ">
             T-SHIRTS
           </button>
           <button type="button" className="btn btn-secondary">
