@@ -29,7 +29,7 @@ const Items = () => {
               type="button"
               className="btn btn-primary buttonBuy BUTTONCARD"
             >
-              Add to Card
+              Add to Card s
             </button>
             <button type="button" className="  buttonBuy BUTTONHEARD">
               <FaRegHeart />

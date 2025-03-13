@@ -1,23 +1,13 @@
-// import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./HeroSession.module.css";
-// import ItemsAdd from "./ItemsAdd";
+import ItemsAdd from "./ItemsAdd";
 
 const HeroSession = () => {
-  // const [data, setData] = useState([]);
-  // useEffect(() => {
-  //   fetch("http://localhost:8080/items")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       setData(data);
-  //     });
-  // }, []);
+  const [selectedCategory, setSelectedCategory] = useState("ALL");
 
-  // const Catagori = ({ data }) => {
-  //   if (data.item_item_Category === data.item_item_Category) {
-  //     return <ItemsAdd></ItemsAdd>;
-  //   }
-  // };
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
 
   return (
     <>
@@ -32,25 +22,50 @@ const HeroSession = () => {
         <h1>BEST CLOTHING COLLECTION</h1>
         <p>Discover quality styles and fashion trends for every occasion.</p>
         <div className={styles.BUTTON}>
-          <button type="button" className="btn btn-secondary">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("ALL")}
+          >
             ALL
           </button>
-          <button type="button" className="btn btn-secondary ">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("GANJI")}
+          >
             T-SHIRTS
           </button>
-          <button type="button" className="btn btn-secondary">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("JACKETS")}
+          >
             JACKETS
           </button>
-          <button type="button" className="btn btn-secondary">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("PANTS")}
+          >
             PANTS
           </button>
-          <button type="button" className="btn btn-secondary">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("HOODIES")}
+          >
             HOODIES
           </button>
-          <button type="button" className="btn btn-secondary">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => handleCategoryChange("SHIRTS")}
+          >
             SHIRTS
           </button>
         </div>
+        <ItemsAdd category={selectedCategory} />
       </center>
     </>
   );

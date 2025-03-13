@@ -134,7 +134,7 @@
         "item_Name": "Mens Premium Sports Joggers - Universal",
         "item_Old_Price": 2500,
         "item_Price": 730,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "18",
@@ -142,7 +142,7 @@
         "item_Name": "Mens Premium Joggers - Coffee Quartz",
         "item_Old_Price":2500,
         "item_Price": 1340,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "19",
@@ -150,7 +150,7 @@
         "item_Name": "Mens Premium Sports Joggers - Gymnast",
         "item_Old_Price":2500,
         "item_Price":730,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "20",
@@ -158,7 +158,7 @@
         "item_Name": "Mens Premium Sports Joggers - Vigour",
         "item_Old_Price": 500,
         "item_Price": 730,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "21",
@@ -166,7 +166,7 @@
         "item_Name": "Mens Premium Joggers - Navy",
         "item_Old_Price": 2500,
         "item_Price": 1340,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "22",
@@ -174,7 +174,7 @@
         "item_Name": "Mens Premium Sports Joggers - Interactive",
         "item_Old_Price": 2500,
         "item_Price":  730,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "23",
@@ -182,7 +182,7 @@
         "item_Name": "Mens Premium Sports Joggers - Vigour",
         "item_Old_Price": 2500,
         "item_Price":  730,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "24",
@@ -190,7 +190,7 @@
         "item_Name": "Mens Premium Joggers - Laurel Oak",
         "item_Old_Price": 2500,
         "item_Price":  1340,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "25",
@@ -198,7 +198,7 @@
         "item_Name": "Mens Premium Joggers - Stormy sea",
         "item_Old_Price": "2500",
         "item_Price":  1340,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "26",
@@ -206,7 +206,7 @@
         "item_Name": "Women's Casual Top",
         "item_Old_Price":2500,
         "item_Price": 750,
-        "item_Category": "PANTS"
+        "item_item_Category": "PANTS"
       },
       {
         "id": "27",
@@ -214,7 +214,7 @@
         "item_Name": "Premium Formal Shirt - Salvador",
         "item_Old_Price": 2500,
         "item_Price":1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "28",
@@ -222,7 +222,7 @@
         "item_Name": "Premium Formal Shirt - Edinburgh",
         "item_Old_Price":  2500,
         "item_Price": 1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "29",
@@ -230,7 +230,7 @@
         "item_Name": "Premium Formal Shirt - Canberra",
         "item_Old_Price":  2500,
         "item_Price": 1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "30",
@@ -238,7 +238,7 @@
         "item_Name": "Premium Formal Shirt - Dresden",
         "item_Old_Price": 2500,
         "item_Price": 1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "31",
@@ -246,7 +246,7 @@
         "item_Name": "Premium Formal Shirt - Rosario",
         "item_Old_Price": 2500,
         "item_Price": 1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "32",
@@ -254,7 +254,7 @@
         "item_Name": "Premium Casual Shirt - Orlando",
         "item_Old_Price": 2500,
         "item_Price": 1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "33",
@@ -262,7 +262,7 @@
         "item_Name": "Premium Formal Shirt - Havana",
         "item_Old_Price": 2500,
         "item_Price":  1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "34",
@@ -270,7 +270,7 @@
         "item_Name": "High Formal Shirt - Havana",
         "item_Old_Price": 2500,
         "item_Price": 2800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "35",
@@ -278,7 +278,7 @@
         "item_Name": "Premium Formal Shirt - Cordoba",
         "item_Old_Price":  2500,
         "item_Price": "৳ 1800",
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "36",
@@ -286,7 +286,7 @@
         "item_Name": "Premium Formal Shirt - Atlanta",
         "item_Old_Price":2500,
         "item_Price":  1800,
-        "item_Category": "SHIRT"
+        "item_item_Category": "SHIRTS"
       },
       {
         "id": "37",
@@ -294,7 +294,7 @@
         "item_Name": "Mens Premium T-Shirt- Jamming",
         "item_Old_Price":  2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "38",
@@ -302,7 +302,7 @@
         "item_Name": "Mens Premium T-Shirt - Nothing Less",
         "item_Old_Price": 2500,
         "item_Price":  599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "39",
@@ -310,7 +310,7 @@
         "item_Name": "Fabrilife Mens Premium T-Shirt - Nasa",
         "item_Old_Price": 2500,
         "item_Price":  599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "40",
@@ -318,7 +318,7 @@
         "item_Name": "Fabrilife Mens Premium T-shirt - Maze",
         "item_Old_Price": 2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "41",
@@ -326,7 +326,7 @@
         "item_Name": "Mens Premium Classic T-Shirt - White Liner",
         "item_Old_Price": 2500,
         "item_Price":  599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "42",
@@ -334,7 +334,7 @@
         "item_Name": "Mens Premium T-Shirt - Blackrock",
         "item_Old_Price":  2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "43",
@@ -342,7 +342,7 @@
         "item_Name": "Mens Premium T-Shirt- Shine",
         "item_Old_Price": 2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "44",
@@ -350,7 +350,7 @@
         "item_Name": "Mens Premium T-Shirt- Threshold",
         "item_Old_Price": 2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "45",
@@ -358,7 +358,7 @@
         "item_Name": "Mens Premium T-Shirt - Euphrates",
         "item_Old_Price": 2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       },
       {
         "id": "46",
@@ -366,7 +366,7 @@
         "item_Name": "Fabrilife Mens Premium T-shirt - Destruction",
         "item_Old_Price": 2500,
         "item_Price": 599,
-        "item_Category": "T_SHIRTS"
+        "item_item_Category": "GANJI"
       }
     ]
   }

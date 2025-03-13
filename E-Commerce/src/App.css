@@ -90,10 +90,14 @@
     background-color: whitesmoke;
 
 }
-.BUTTONHEARD:active {
+.Like{
+    width: 80%;
+    height: 80%;
+}
+/* .BUTTONHEARD:active {
     background-color: red;
 
-}
+} */
 .BUTTONCARD {
     width: 78%;
 }

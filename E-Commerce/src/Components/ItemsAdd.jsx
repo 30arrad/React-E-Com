@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart } from "react-icons/fa";
 import styles from "./Items.module.css";
 
-const ItemsAdd = () => {
+const ItemsAdd = ({ category }) => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [bagCount, setbagCount] = useState([0]);
+  const [likedItems, setLikedItems] = useState({});
 
   useEffect(() => {
     const fetchItems = async () => {
@@ -30,13 +30,20 @@ const ItemsAdd = () => {
 
   const handleAddToCart = (item) => {
     console.log("Added to Cart:", item.id);
-    setbagCount((prev) => prev + 1);
   };
 
-  // const handleAddToCart = (item) => {
-  //   setBagCount((prev) => prev + 1);
-  //   setBagItems((prev) => [...prev, item]);
-  // };
+  const handleLike = (itemId) => {
+    setLikedItems((prev) => ({
+      ...prev,
+      [itemId]: !prev[itemId], // Toggle like state
+    }));
+  };
+
+  const filteredItems =
+    category === "ALL"
+      ? items
+      : items.filter((item) => item.item_item_Category === category);
+
   if (error) {
     return <div className={styles.error}>Error: {error}</div>;
   }
@@ -45,8 +52,8 @@ const ItemsAdd = () => {
     <center className={styles.itemsDev}>
       {loading ? (
         <p>Loading items...</p>
-      ) : items.length > 0 ? (
-        items.map((item) => (
+      ) : filteredItems.length > 0 ? (
+        filteredItems.map((item) => (
           <div
             key={item.id}
             className="card itemstyle"
@@ -58,6 +65,7 @@ const ItemsAdd = () => {
               alt={item.item_Name}
             />
             <div className="card-body">
+              {/* <p>{item.item_item_Category}</p> */}
               {item.item_item_Category}
               <h5 className="card-title">{item.item_Name}</h5>
               <div className={styles.spanDiv}>
@@ -69,8 +77,8 @@ const ItemsAdd = () => {
                   type="button"
                   className="btn btn-primary buttonBuy BUTTONCARD"
                   onClick={(e) => {
-                    e.stopPropagation(); // Prevent triggering item click
-                    handleAddToCart(item); // When clicked, the item is added to the cart
+                    e.stopPropagation();
+                    handleAddToCart(item);
                   }}
                 >
                   Add to Cart
@@ -79,11 +87,15 @@ const ItemsAdd = () => {
                   type="button"
                   className="buttonBuy BUTTONHEARD"
                   onClick={(e) => {
-                    e.stopPropagation(); // Prevent triggering item click
-                    handleAddToCart(item); // When clicked, the item is added to the cart
+                    e.stopPropagation();
+                    handleLike(item.id);
                   }}
                 >
-                  <FaRegHeart />
+                  {likedItems[item.id] ? (
+                    <FaHeart className="Like" color="red" />
+                  ) : (
+                    <FaRegHeart className="Like" color="gray" />
+                  )}
                 </button>
               </div>
             </div>

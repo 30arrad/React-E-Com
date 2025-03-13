@@ -1,8 +1,8 @@
 import { IoBagCheck } from "react-icons/io5";
-import { FaRegHeart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
+const NavBer = ({ selectedTab, setSelectedTab }) => {
   return (
     <>
       <nav
@@ -27,7 +27,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
                   setSelectedTab("Watchlist");
                 }}
               >
-                <FaRegHeart />
+                <FaHeart />
               </div>
               <span className="NAVHADER">0</span>
             </Link>
@@ -45,28 +45,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
             </Link>
           </div>
           <div className="collapse navbar-collapse " id="navbarColor01">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
@@ -86,7 +65,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
                   setSelectedTab("Watchlist");
                 }}
               >
-                <FaRegHeart />
+                <FaHeart />
               </div>
               <span className="NAVHADER ">0</span>
             </Link>
@@ -101,7 +80,7 @@ const NavBer = ({ selectedTab, setSelectedTab, bagCount }) => {
               >
                 <IoBagCheck />
               </Link>
-              <span className="NAVHADER ">{bagCount === 0 ? 0 : 1}</span>
+              <span className="NAVHADER ">0</span>
             </div>
           </div>
         </div>
