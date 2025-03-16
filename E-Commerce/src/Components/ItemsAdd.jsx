@@ -89,6 +89,7 @@ const ItemsAdd = ({ category }) => {
                   onClick={(e) => {
                     e.stopPropagation();
                     handleLike(item.id);
+                    handleAddToCart(item);
                   }}
                 >
                   {likedItems[item.id] ? (
