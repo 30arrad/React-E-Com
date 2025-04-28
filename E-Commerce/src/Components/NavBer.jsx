@@ -17,7 +17,7 @@ const NavBer = ({ selectedTab, setSelectedTab }) => {
               setSelectedTab("Home");
             }}
           >
-            Hpmeopathy Care
+            Bright Shop
           </Link>
           <div className="mobileBer navbar-toggler">
             <Link to="/watchlist" className="DisplayFlex">
