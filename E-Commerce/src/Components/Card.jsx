@@ -10,8 +10,9 @@ import {
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Swal from "sweetalert2";
+import ItemsAdd from "./ItemsAdd";
 
-const Card = () => {
+const Card = ({ item }) => {
   const [cart, setCart] = useState([
     {
       id: 1,
@@ -19,17 +20,6 @@ const Card = () => {
       item_img: "Images/Hoodies/H-1.jpg",
       item_Old_Price: 1700,
       item_Price: 1390,
-      size: "XL",
-      item_item_Category: `HOODIES`,
-      quantity: 1,
-    },
-    {
-      id: 2,
-      item_Name: "Mens Premium T-Shirt - Hope",
-      item_img: "Images/Jackets/J-1.jpg",
-      item_Old_Price: 710,
-      item_Price: 630,
-      size: "M",
       item_item_Category: `HOODIES`,
       quantity: 1,
     },
@@ -38,8 +28,8 @@ const Card = () => {
   const updateQuantity = (id, qty) => {
     setCart(
       cart.map((item) =>
-        item.id === id ? { ...item, quantity: Math.max(1, qty) } : item
-      )
+        item.id === id ? { ...item, quantity: Math.max(1, qty) } : item,
+      ),
     );
   };
 
@@ -49,7 +39,7 @@ const Card = () => {
 
   const totalAmount = cart.reduce(
     (sum, item) => sum + item.item_Price * item.quantity,
-    0
+    0,
   );
 
   const handleCheckout = () => {
@@ -70,7 +60,6 @@ const Card = () => {
           <tr>
             <th>Product</th>
             <th>Unit Price</th>
-            <th>Size</th>
             <th>Quantity</th>
             <th>Subtotal</th>
             <th>Action</th>
@@ -95,7 +84,6 @@ const Card = () => {
                 )}{" "}
                 <span className="fw-bold text-primary">৳{item.item_Price}</span>
               </td>
-              <td>{item.size}</td>
               <td>
                 <Form.Control
                   type="number"
@@ -115,7 +103,6 @@ const Card = () => {
                   >
                     Delete
                   </button>
-                  <button className="btn btn-primary">Add to Card</button>
                 </div>
               </td>
             </tr>

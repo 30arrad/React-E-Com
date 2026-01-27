@@ -29,7 +29,8 @@ const ItemsAdd = ({ category }) => {
   }, []);
 
   const handleAddToCart = (item) => {
-    console.log("Added to Cart:", item.id);
+
+    console.log("Added to Cart:", item);
   };
 
   const handleLike = (itemId) => {
